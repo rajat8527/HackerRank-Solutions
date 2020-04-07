@@ -23,8 +23,7 @@ public class PerfectSubstring {
                 if (frequencyArray[index] > k)
                     break;
 
-                else if (frequencyArray[index] == k &&
-                        check(frequencyArray, k))
+                else if (frequencyArray[index] == k && check(frequencyArray, k))
                     count++;
             }
         }
