@@ -17,7 +17,7 @@ public class LocationIP {
     public static int getExpenditure(int userId, int locationId, int netStart, int netEnd) {
         String urlString = "https://jsonmock.hackerrank.com/api/transactions/search?userId="+userId;
         int finalAmount = 0;
-        System.out.println(userId + " " + locationId + " " + netStart + " " + netEnd);
+       
         try {
 
             URL url = new URL(urlString);
